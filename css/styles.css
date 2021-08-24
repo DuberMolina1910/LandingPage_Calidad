@@ -1,0 +1,29 @@
+body{background-color: #f0f0f0;}
+.container-header{background-color: #212529; box-shadow: 0px 0px 10px 1px;}
+.txheader{padding-left: 1em; border-left: 1px solid white; color: white;}
+.lgheader{max-width: 70px; padding-right: 1em;}
+ul.nav{align-items: center;}
+.nav-item a{color: white; font-size: 1.1em; font-weight: 600; letter-spacing: .5px;}
+.lbl_atributos{max-width: 100%; min-height: 25em;}
+#lbl_Disponibilidad{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/disponibilidad.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+#lbl_Interoperabilidad{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/interoperabilidad.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+#lbl_Modificabilidad{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/disponibilidad.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+#lbl_Rendimiento{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/rendimiento.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+#lbl_Seguridad{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/seguridad.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+#lbl_Testeabilidad{ max-width: 100%; min-width: 60%; min-height: 25em; background-image: url(../img/testeabilidad.jpg); background-size: 150%; animation: movimiento 45s infinite linear alternate-reverse; background-repeat: no-repeat; position: relative; margin: 2em 0 2em 0; box-shadow: 0px 0px 20px 1px #5B5B5B; display: flex; align-items: center;}
+@keyframes movimiento {from{background-position: bottom left;}to{background-position: top right;}}
+.capa-degradado{width: 100%; height: 100%; position: absolute; background: linear-gradient(to right, #000000, #002837); opacity: 0.9;}
+.cont_text{width: 100%; position: relative; color: white;}
+.txt_text{width: 100%; max-width: calc(75%); position: relative; display: flex; flex-wrap: wrap; padding: 0em 2em; justify-content: space-around; margin: 0 auto;}
+footer{width: 100%; padding: 3em 0px; background-image: url(../img/background-footer.svg); background-size: cover;}
+.cont_footer{display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1200px; margin: auto; margin-top: 5em;}
+.box_footer{display: flex; flex-direction: column; padding: 2em;}
+.box_footer .logo_footer img{ width: 6em;}
+.box_footer .desc_footer{ max-width: 10em; margin-top: 1.5em; font-weight: 500; color: #c8c8c8; font-size: 1em;}
+.box_footer h2{margin-bottom: 2em; color: #ffffff; font-weight: 600;}
+.box_footer a{margin-top: 0.6em; color: #c8c8c8; font-weight: 700; text-decoration: none;}
+.box_footer a:hover{opacity: 0.8;}
+.box_footer a .fab{font-size: 1.3em;}
+.box_copy{max-width: 75em; margin: auto; text-align: center; padding: 0em 2.5em;}
+.box_copy p{margin-top: 1.2em; color: #c8c8c8;}
+.box_copy hr{border: none; height: 1px; background-color: #c8c8c8;}
